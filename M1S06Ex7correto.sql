@@ -1,0 +1,4 @@
+
+ALTER TABLE Veiculo ADD IdCor Int
+
+Alter TABLE Veiculo ADD CONSTRAINT fk_veico FOREIGN KEY (IdCor) REFERENCES Cor (id)
